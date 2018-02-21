@@ -46,3 +46,19 @@ code c(i) 부분이 (색깔, 굵기 , 기울기, ... etc) 에 대한 부분으�
 
 (reference : https://en.wikipedia.org/wiki/Mutual_information#/media/File:Entropy-mutual-information-relative-entropy-relation-diagram.svg)
 
+I(X;Y) X에서 Y로부터 설명 될 수 있는 정보량 = X가 관측 되었을 때 Y에서 없이지는 불확실성의 입니다. 만약 서로 독립적인 관계라면 I(X;Y)=0입니다.
+
+## MINIMAX_INFOGAN
+![](img/MINIMAX_INFOGAN.PNG)
+
+C에 대해서는 중요한게 담기기를 원하면서 GAN에 대한 구조로 학습을 하게 됩니다.
+
+## Variation Mutual Information Maximization
+I(c; G(z,c))를 최대하 하기 위해서는 P(c|G(z,c)) 를 알아야하고 P(G(z,c))는  계산이 불가능하기 때문에 varational information maximization이라는 lower bounding tech을 사용해야합니다.
+
+![](img/conditional_entropy.PNG)
+( 이 부분에서 P(c|G(z,c)) 가  필요하다고 나옴  )
+
+## Infogan 수식 설명
+![](img/infogan.PNG)
+(reference :임성빈님의 facebook 자료 )
