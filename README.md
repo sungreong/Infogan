@@ -62,3 +62,5 @@ I(c; G(z,c))를 최대하 하기 위해서는 P(c|G(z,c)) 를 알아야하고 P(
 ## Infogan 수식 설명
 ![](img/infogan.PNG)
 (reference :임성빈님의 facebook 자료 )
+처음에 그림에서  이해가 안되는 부분이 있었지만, 임성빈님께 질문을 하고나서 알게되었습니다.
+![](img/p(c)=1.PNG)
