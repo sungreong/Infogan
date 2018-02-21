@@ -36,9 +36,12 @@ code c(i) 부분이 (색깔, 굵기 , 기울기, ... etc) 에 대한 부분으�
 
 그래서 이러한 것을 막기 위해서 c, G(z,c)의 상호정보량(MI)(I(c; G(z,c))를 높게 유지하게 한다. 
 ## MI_1
-![](img/MUTUAL_INFORMATION.PNG)
+![](img/MUTUAL_INFORMATION.png)
 
 ## MI_2
 ![](img/MUTUAL_INFORMATION_2.PNG)
+
+## MI_수식
+![](img/MUTUAL_INFORMATION_3.PNG)
 (REFERENCE : https://en.wikipedia.org/wiki/Mutual_information#/media/File:Entropy-mutual-information-relative-entropy-relation-diagram.svg)
 
