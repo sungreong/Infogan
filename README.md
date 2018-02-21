@@ -14,6 +14,7 @@ gan은 단순히 z만 학습하기 때문에 제약을 받지 않아서 생성�
 이러한 꼬여진 상태보다는 좀 더 꼬이지 않은 방식으로 학습하길 원해서 나온 것이 infogan 이라고 합니다.
 
 ![](img/disentangled.PNG)
+
 (reference: http://jaejunyoo.blogspot.com/2017/03/infogan-1.html)
 
 위에 있는 복잡한 형식에서는 유의미한 c를 찾기가 어려워 보입니다. 하지만 이것을 펼처서 분류해서 볼 수 있다면 
@@ -34,8 +35,9 @@ code c(i) 부분이 (색깔, 굵기 , 기울기, ... etc) 에 대한 부분으�
 왜냐하면 X에 대한 것만 찾으면 되기 때문에 C와 X가 독립이라고 하면은 C는 무시할 수 있게 된다. P(X | C) = P(X,C) / P(C) = [P(X) P(C)]/ P(C) = P(X)
 
 그래서 이러한 것을 막기 위해서 c, G(z,c)의 상호정보량(MI)(I(c; G(z,c))를 높게 유지하게 한다. 
-
+## 
 ![](img/MUTUAL_INFORMATION.PNG)
+##
 ![](img/MUTUAL_INFORMATION_2.PNG)
 (REFERENCE : https://en.wikipedia.org/wiki/Mutual_information#/media/File:Entropy-mutual-information-relative-entropy-relation-diagram.svg)
 
