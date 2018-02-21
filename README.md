@@ -46,7 +46,9 @@ code c(i) 부분이 (색깔, 굵기 , 기울기, ... etc) 에 대한 부분으�
 
 (reference : https://en.wikipedia.org/wiki/Mutual_information#/media/File:Entropy-mutual-information-relative-entropy-relation-diagram.svg)
 
-I(X;Y) X에서 Y로부터 설명 될 수 있는 정보량 = X가 관측 되었을 때 Y에서 없이지는 불확실성의 입니다. 만약 서로 독립적인 관계라면 I(X;Y)=0입니다.
+I(X;Y) X에서 Y로부터 설명 될 수 있는 정보량 = X가 관측 되었을 때 Y에서 없이지는 불확실성의 입니다.
+
+만약 서로 독립적인 관계라면 I(X;Y)=0입니다.
 
 ## MINIMAX_INFOGAN
 ![](img/MINIMAX_INFOGAN.PNG)
@@ -62,6 +64,6 @@ I(c; G(z,c))를 최대하 하기 위해서는 P(c|G(z,c)) 를 알아야하고 P(
 ## Infogan 수식 설명
 ![](img/infogan.PNG)
 (reference :임성빈님의 facebook 자료 )
-![](img/p(c)=1.PNG)
+#![](img/p(c)=1.PNG)
 
 처음에 수식부분에서 이해가 안되는 부분이 있었지만, 임성빈님께 질문을 하고나서 latent c CODE의 총합은 1이 된다는 것을 알았습니다.
