@@ -58,3 +58,7 @@ I(c; G(z,c))를 최대하 하기 위해서는 P(c|G(z,c)) 를 알아야하고 P(
 
 ![](img/conditional_entropy.PNG)
 ( 이 부분에서 P(c|G(z,c)) 가  필요하다고 나옴  )
+
+## Infogan 수식 설명
+![](img/infogan.PNG)
+(reference :임성빈님의 facebook 자료 )
