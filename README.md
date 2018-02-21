@@ -35,9 +35,10 @@ code c(i) 부분이 (색깔, 굵기 , 기울기, ... etc) 에 대한 부분으�
 왜냐하면 X에 대한 것만 찾으면 되기 때문에 C와 X가 독립이라고 하면은 C는 무시할 수 있게 된다. P(X | C) = P(X,C) / P(C) = [P(X) P(C)]/ P(C) = P(X)
 
 그래서 이러한 것을 막기 위해서 c, G(z,c)의 상호정보량(MI)(I(c; G(z,c))를 높게 유지하게 한다. 
-## 
+## MI_1
 ![](img/MUTUAL_INFORMATION.PNG)
-##
+
+## MI_2
 ![](img/MUTUAL_INFORMATION_2.PNG)
 (REFERENCE : https://en.wikipedia.org/wiki/Mutual_information#/media/File:Entropy-mutual-information-relative-entropy-relation-diagram.svg)
 
