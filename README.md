@@ -48,7 +48,7 @@ P(X | C) = P(X,C) / P(C) = [P(X) P(C)]/ P(C) = P(X)
 
 (reference : https://en.wikipedia.org/wiki/Mutual_information#/media/File:Entropy-mutual-information-relative-entropy-relation-diagram.svg)
 
-I(X;Y) X에서 Y로부터 설명 될 수 있는 정보량 = X가 관측 되었을 때 Y에서 없이지는 불확실성의 입니다.
+I(X;Y) = X에서 Y로부터 설명 될 수 있는 정보량 = X가 관측 되었을 때 Y에서 없어지는 불확실성의 양입니다.
 
 만약 서로 독립적인 관계라면 I(X;Y)=0입니다.
 
