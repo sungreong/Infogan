@@ -57,7 +57,7 @@ I(X;Y) = X에서 Y로부터 설명 될 수 있는 정보량 = X가 관측 되었
 
 C에 대해서는 중요한게 담기기를 원하면서 GAN에 대한 구조로 학습을 하게 됩니다.
 
-## Variation Mutual Information Maximization
+## Variational Mutual Information Maximization
 I(c; G(z,c))를 최대하 하기 위해서는 P(c|G(z,c)) 를 알아야하고 P(G(z,c))는  계산이 불가능하기 때문에 varational information maximization이라는 lower bounding tech을 사용해야합니다.
 
 ![](img/conditional_entropy.PNG)
